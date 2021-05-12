@@ -6,10 +6,13 @@ Notes:
 - Ignore leap years and days between last birthday and now
 - Expect only positive integer ouputs
 
-function calcAge(age) |{
+function calcAge(age) {
 
 }
 
 published by medyah99
 */
 
+function calcAge(age) {
+    return age * 365;
+};
